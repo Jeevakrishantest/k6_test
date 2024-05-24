@@ -29,5 +29,4 @@ jobs:
         env:
           K6_CLOUD_TOKEN: ${{ secrets.K6_CLOUD_TOKEN }}
         run: |
-          k6 login cloud --token 685c6df2d9121110f62930e18291949d337bed7aa2f5979052b9ffd5989bd515
           k6 cloud test.js
