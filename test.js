@@ -7,6 +7,11 @@ export const options = {
     { duration: '30s', target: 20 },
     { duration: '5s', target: 2 },
   ],
+    ext: {
+    loadimpact: {
+      projectID: 3701318,
+    },
+  },
 };
 
 export default function () {
